@@ -1,0 +1,686 @@
+# Robots.txt for INAD PROMOTION Website
+# https://inadpromotion.com/robots.txt
+# Last updated: 2024
+
+# =============================================================================
+# GENERAL DIRECTIVES FOR ALL BOTS
+# =============================================================================
+
+# Allow all crawlers by default
+User-agent: *
+Allow: /
+
+# Disallow sensitive and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /.git/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/uploads/
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /wp-config.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+
+# Disallow temporary and development files
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /old/
+Disallow: /test/
+Disallow: /dev/
+Disallow: /staging/
+Disallow: /beta/
+Disallow: /alpha/
+
+# Disallow search and filter pages
+Disallow: /search?
+Disallow: /filter?
+Disallow: /sort?
+Disallow: /page?
+Disallow: /category?
+Disallow: /tag?
+Disallow: /author?
+Disallow: /date?
+
+# Disallow form submissions and success pages
+Disallow: /contact-success
+Disallow: /form-submitted
+Disallow: /thank-you
+Disallow: /success
+Disallow: /error
+Disallow: /404
+Disallow: /500
+
+# Disallow utility and system pages
+Disallow: /sitemap.xml.gz
+Disallow: /sitemap.html
+Disallow: /robots.txt.gz
+Disallow: /favicon.ico
+Disallow: /apple-touch-icon.png
+Disallow: /android-chrome-*.png
+Disallow: /mstile-*.png
+Disallow: /safari-pinned-tab.svg
+
+# Disallow analytics and tracking
+Disallow: /analytics/
+Disallow: /stats/
+Disallow: /tracking/
+Disallow: /pixel/
+Disallow: /gtm/
+Disallow: /ga/
+Disallow: /google-analytics/
+Disallow: /facebook-pixel/
+
+# Disallow user-generated content
+Disallow: /comments/
+Disallow: /reviews/
+Disallow: /ratings/
+Disallow: /feedback/
+Disallow: /testimonials/
+Disallow: /user/
+Disallow: /profile/
+Disallow: /account/
+Disallow: /login/
+Disallow: /register/
+Disallow: /signup/
+Disallow: /signin/
+
+# Disallow e-commerce and shopping
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /order/
+Disallow: /payment/
+Disallow: /billing/
+Disallow: /invoice/
+Disallow: /receipt/
+Disallow: /shipping/
+Disallow: /delivery/
+
+# Disallow newsletter and subscription
+Disallow: /newsletter/
+Disallow: /subscribe/
+Disallow: /unsubscribe/
+Disallow: /opt-out/
+Disallow: /opt-in/
+Disallow: /preferences/
+Disallow: /settings/
+
+# Disallow maintenance and error pages
+Disallow: /maintenance/
+Disallow: /under-construction/
+Disallow: /coming-soon/
+Disallow: /offline/
+Disallow: /not-found/
+Disallow: /forbidden/
+Disallow: /unauthorized/
+
+# Disallow development and testing
+Disallow: /development/
+Disallow: /testing/
+Disallow: /preview/
+Disallow: /demo/
+Disallow: /example/
+
+# Disallow backup and archive
+Disallow: /archive/
+Disallow: /previous/
+Disallow: /legacy/
+Disallow: /deprecated/
+
+# Disallow system and configuration
+Disallow: /system/
+Disallow: /config/
+Disallow: /configuration/
+Disallow: /setup/
+Disallow: /install/
+Disallow: /uninstall/
+Disallow: /update/
+Disallow: /upgrade/
+
+# Disallow security and authentication
+Disallow: /auth/
+Disallow: /authentication/
+Disallow: /security/
+Disallow: /verify/
+Disallow: /validate/
+Disallow: /confirm/
+Disallow: /activate/
+Disallow: /deactivate/
+
+# Disallow API and web services
+Disallow: /rest/
+Disallow: /soap/
+Disallow: /xml/
+Disallow: /json/
+Disallow: /rss/
+Disallow: /feed/
+Disallow: /atom/
+
+# Disallow file downloads and uploads
+Disallow: /download/
+Disallow: /upload/
+Disallow: /files/
+Disallow: /documents/
+Disallow: /media/
+Disallow: /assets/
+Disallow: /images/
+Disallow: /videos/
+Disallow: /audio/
+
+# Disallow search and filter results
+Disallow: /search/
+Disallow: /find/
+Disallow: /lookup/
+Disallow: /filter/
+Disallow: /sort/
+Disallow: /order/
+Disallow: /arrange/
+
+# Disallow pagination and navigation
+Disallow: /page/
+Disallow: /p/
+Disallow: /offset/
+Disallow: /limit/
+Disallow: /per_page/
+Disallow: /items_per_page/
+
+# Disallow session and cookie management
+Disallow: /session/
+Disallow: /cookie/
+Disallow: /cookies/
+Disallow: /privacy/
+Disallow: /terms/
+Disallow: /legal/
+Disallow: /policy/
+
+# Disallow help and support
+Disallow: /help/
+Disallow: /support/
+Disallow: /faq/
+Disallow: /questions/
+Disallow: /troubleshooting/
+Disallow: /guide/
+Disallow: /manual/
+Disallow: /tutorial/
+
+# Disallow contact and communication
+Disallow: /contact/
+Disallow: /get-in-touch/
+Disallow: /reach-us/
+Disallow: /message/
+Disallow: /email/
+Disallow: /phone/
+Disallow: /address/
+
+# Disallow about and company information
+Disallow: /about/
+Disallow: /company/
+Disallow: /corporate/
+Disallow: /business/
+Disallow: /organization/
+Disallow: /team/
+Disallow: /staff/
+Disallow: /employees/
+
+# Disallow services and products
+Disallow: /services/
+Disallow: /products/
+Disallow: /solutions/
+Disallow: /offerings/
+Disallow: /features/
+Disallow: /benefits/
+Disallow: /advantages/
+
+# Disallow portfolio and work
+Disallow: /portfolio/
+Disallow: /work/
+Disallow: /projects/
+Disallow: /case-studies/
+Disallow: /examples/
+Disallow: /samples/
+Disallow: /showcase/
+
+# Disallow blog and articles
+Disallow: /blog/
+Disallow: /news/
+Disallow: /articles/
+Disallow: /posts/
+Disallow: /stories/
+Disallow: /content/
+Disallow: /publish/
+
+# Disallow events and calendar
+Disallow: /events/
+Disallow: /calendar/
+Disallow: /schedule/
+Disallow: /dates/
+Disallow: /timeline/
+Disallow: /agenda/
+
+# Disallow careers and jobs
+Disallow: /careers/
+Disallow: /jobs/
+Disallow: /employment/
+Disallow: /work-with-us/
+Disallow: /join-us/
+Disallow: /hiring/
+Disallow: /recruitment/
+
+# Disallow partners and affiliates
+Disallow: /partners/
+Disallow: /affiliates/
+Disallow: /resellers/
+Disallow: /distributors/
+Disallow: /vendors/
+Disallow: /suppliers/
+
+# Disallow press and media
+Disallow: /press/
+Disallow: /media/
+Disallow: /newsroom/
+Disallow: /releases/
+Disallow: /coverage/
+Disallow: /publicity/
+
+# Disallow investor relations
+Disallow: /investors/
+Disallow: /shareholders/
+Disallow: /financial/
+Disallow: /reports/
+Disallow: /earnings/
+Disallow: /stock/
+
+# Disallow customer service
+Disallow: /customer-service/
+Disallow: /assistance/
+Disallow: /guidance/
+
+# Disallow sales and marketing
+Disallow: /sales/
+Disallow: /marketing/
+Disallow: /advertising/
+Disallow: /promotion/
+Disallow: /campaigns/
+
+# Disallow research and development
+Disallow: /research/
+Disallow: /development/
+Disallow: /innovation/
+Disallow: /technology/
+Disallow: /science/
+
+# Disallow education and training
+Disallow: /education/
+Disallow: /training/
+Disallow: /learning/
+Disallow: /courses/
+Disallow: /workshops/
+
+# Disallow community and forums
+Disallow: /community/
+Disallow: /forums/
+Disallow: /discussion/
+Disallow: /chat/
+Disallow: /message-board/
+
+# Disallow tools and utilities
+Disallow: /tools/
+Disallow: /utilities/
+Disallow: /calculators/
+Disallow: /converters/
+Disallow: /generators/
+
+# Disallow games and entertainment
+Disallow: /games/
+Disallow: /entertainment/
+Disallow: /fun/
+Disallow: /play/
+Disallow: /quiz/
+
+# Disallow contests and promotions
+Disallow: /contests/
+Disallow: /promotions/
+Disallow: /giveaways/
+Disallow: /sweepstakes/
+Disallow: /raffles/
+
+# Disallow surveys and feedback
+Disallow: /surveys/
+
+# Disallow downloads and resources
+Disallow: /downloads/
+Disallow: /resources/
+Disallow: /materials/
+
+# Disallow archives and history
+Disallow: /archives/
+Disallow: /history/
+Disallow: /past/
+
+# Disallow maintenance and system
+Disallow: /cpanel/
+Disallow: /phpmyadmin/
+
+# =============================================================================
+# SPECIFIC BOT DIRECTIVES
+# =============================================================================
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Googlebot-Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Slurp (Yahoo)
+User-agent: Slurp
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 2
+
+# DuckDuckBot
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Facebook External Hit
+User-agent: facebookexternalhit
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Twitterbot
+User-agent: Twitterbot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# LinkedIn Bot
+User-agent: LinkedInBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Telegram Bot
+User-agent: TelegramBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Pinterest
+User-agent: Pinterest
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Snapchat
+User-agent: Snapchat
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# TikTok
+User-agent: TikTok
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Baiduspider
+User-agent: Baiduspider
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 2
+
+# YandexBot
+User-agent: YandexBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 2
+
+# AhrefsBot
+User-agent: AhrefsBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 2
+
+# SemrushBot
+User-agent: SemrushBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 2
+
+# MJ12bot
+User-agent: MJ12bot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 2
+
+# DotBot
+User-agent: DotBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 2
+
+# Screaming Frog SEO Spider
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Sitebulb
+User-agent: Sitebulb
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# UptimeRobot
+User-agent: UptimeRobot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# Pingdom
+User-agent: Pingdom
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# StatusCake
+User-agent: StatusCake
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Crawl-delay: 1
+
+# =============================================================================
+# ALLOWED CONTENT
+# =============================================================================
+
+# Allow specific important pages
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /manifest.json
+Allow: /sw.js
+Allow: /favicon.ico
+Allow: /logo.png
+Allow: /og-image.jpg
+Allow: /twitter-image.jpg
+
+# Allow social media profiles
+Allow: /facebook
+Allow: /twitter
+Allow: /linkedin
+Allow: /instagram
+Allow: /youtube
+
+# Allow business profiles
+Allow: /google-business
+Allow: /yelp
+Allow: /bbb
+Allow: /eventbrite
+Allow: /meetup
+
+# Allow important content
+Allow: /about
+Allow: /services
+Allow: /portfolio
+Allow: /clients
+Allow: /blog
+Allow: /contact
+Allow: /team
+Allow: /careers
+Allow: /resources
+Allow: /faq
+Allow: /support
+Allow: /partners
+Allow: /events
+Allow: /press-releases
+Allow: /case-studies
+
+# =============================================================================
+# FINAL SETTINGS
+# =============================================================================
+
+# Crawl delay for all bots
+Crawl-delay: 1
+
+# Sitemap locations
+Sitemap: https://inadpromotion.com/sitemap.xml
+Sitemap: https://inadpromotion.com/sitemap-images.xml
+Sitemap: https://inadpromotion.com/sitemap-videos.xml
+Sitemap: https://inadpromotion.com/sitemap-news.xml
+
+# Host directive
+Host: https://inadpromotion.com
+
+# =============================================================================
+# SECURITY MEASURES
+# =============================================================================
+
+# Block malicious bots and scrapers
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /.env
+Disallow: /.git/
+Disallow: /wp-config.php
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+
+# Allow all other content
+Allow: /

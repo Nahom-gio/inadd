@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://inadpromotion.com/</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/og-image.jpg</image:loc>
+      <image:title>INAD PROMOTION - Experiential Marketing & Event Management</image:title>
+      <image:caption>Transform your brand with immersive experiential marketing</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://inadpromotion.com/#about</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/about-image.jpg</image:loc>
+      <image:title>About INAD PROMOTION</image:title>
+      <image:caption>Learn about our story and experiential approach</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://inadpromotion.com/#services</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/services-image.jpg</image:loc>
+      <image:title>Our Services</image:title>
+      <image:caption>Comprehensive marketing and event management services</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Portfolio Section -->
+  <url>
+    <loc>https://inadpromotion.com/#portfolio</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/portfolio-image.jpg</image:loc>
+      <image:title>Our Portfolio</image:title>
+      <image:caption>Showcase of our successful projects and campaigns</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Featured Projects Section -->
+  <url>
+    <loc>https://inadpromotion.com/#featured-projects</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/featured-projects-image.jpg</image:loc>
+      <image:title>Featured Projects</image:title>
+      <image:caption>Highlighted campaigns and events</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Client Logos Section -->
+  <url>
+    <loc>https://inadpromotion.com/#client-logos</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/client-logos-image.jpg</image:loc>
+      <image:title>Our Clients</image:title>
+      <image:caption>Trusted by leading brands and organizations</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Clients Section -->
+  <url>
+    <loc>https://inadpromotion.com/#clients</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/clients-image.jpg</image:loc>
+      <image:title>Client Testimonials</image:title>
+      <image:caption>What our clients say about our services</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Section -->
+  <url>
+    <loc>https://inadpromotion.com/#blog</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/blog-image.jpg</image:loc>
+      <image:title>Blog & Insights</image:title>
+      <image:caption>Latest articles and marketing insights</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://inadpromotion.com/#contact</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/contact-image.jpg</image:loc>
+      <image:title>Contact Us</image:title>
+      <image:caption>Get in touch for your marketing needs</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Service Highlights Section -->
+  <url>
+    <loc>https://inadpromotion.com/#service-highlights</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/service-highlights-image.jpg</image:loc>
+      <image:title>Service Highlights</image:title>
+      <image:caption>Key aspects of our marketing services</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Footer Section -->
+  <url>
+    <loc>https://inadpromotion.com/#footer</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://inadpromotion.com/privacy-policy</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://inadpromotion.com/terms-of-service</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Cookie Policy -->
+  <url>
+    <loc>https://inadpromotion.com/cookie-policy</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Accessibility Statement -->
+  <url>
+    <loc>https://inadpromotion.com/accessibility</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Sitemap -->
+  <url>
+    <loc>https://inadpromotion.com/sitemap.xml</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Robots.txt -->
+  <url>
+    <loc>https://inadpromotion.com/robots.txt</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Manifest -->
+  <url>
+    <loc>https://inadpromotion.com/manifest.json</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Service Worker -->
+  <url>
+    <loc>https://inadpromotion.com/sw.js</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Background Video -->
+  <url>
+    <loc>https://inadpromotion.com/bg.mp4</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <video:video>
+      <video:thumbnail_loc>https://inadpromotion.com/video-thumbnail.jpg</video:thumbnail_loc>
+      <video:title>INAD PROMOTION Background Video</video:title>
+      <video:description>Background video showcasing INAD PROMOTION events and activities</video:description>
+      <video:content_loc>https://inadpromotion.com/bg.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+
+  <!-- Logo -->
+  <url>
+    <loc>https://inadpromotion.com/logo.png</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <image:image>
+      <image:loc>https://inadpromotion.com/logo.png</image:loc>
+      <image:title>INAD PROMOTION Logo</image:title>
+      <image:caption>Official INAD PROMOTION company logo</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Favicon -->
+  <url>
+    <loc>https://inadpromotion.com/favicon.ico</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Apple Touch Icon -->
+  <url>
+    <loc>https://inadpromotion.com/apple-touch-icon.png</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Social Media Profiles -->
+  <url>
+    <loc>https://www.facebook.com/inadpromotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.twitter.com/inadpromotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.linkedin.com/company/inadpromotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.instagram.com/inadpromotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- YouTube Channel -->
+  <url>
+    <loc>https://www.youtube.com/channel/inadpromotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- LinkedIn Company Page -->
+  <url>
+    <loc>https://www.linkedin.com/company/inadpromotion/about</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Google Business Profile -->
+  <url>
+    <loc>https://maps.google.com/?cid=YOUR_GOOGLE_BUSINESS_ID</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Yelp Business Page -->
+  <url>
+    <loc>https://www.yelp.com/biz/inad-promotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- BBB Business Profile -->
+  <url>
+    <loc>https://www.bbb.org/us/profile/inad-promotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Industry Directories -->
+  <url>
+    <loc>https://www.eventbrite.com/o/inad-promotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.meetup.com/inad-promotion</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Press Releases -->
+  <url>
+    <loc>https://inadpromotion.com/press-releases</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Case Studies -->
+  <url>
+    <loc>https://inadpromotion.com/case-studies</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Team Page -->
+  <url>
+    <loc>https://inadpromotion.com/team</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Careers Page -->
+  <url>
+    <loc>https://inadpromotion.com/careers</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Resources Page -->
+  <url>
+    <loc>https://inadpromotion.com/resources</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- FAQ Page -->
+  <url>
+    <loc>https://inadpromotion.com/faq</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Support Page -->
+  <url>
+    <loc>https://inadpromotion.com/support</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Partners Page -->
+  <url>
+    <loc>https://inadpromotion.com/partners</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Events Calendar -->
+  <url>
+    <loc>https://inadpromotion.com/events</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Newsletter Signup -->
+  <url>
+    <loc>https://inadpromotion.com/newsletter</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Contact Form Success -->
+  <url>
+    <loc>https://inadpromotion.com/contact-success</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- 404 Error Page -->
+  <url>
+    <loc>https://inadpromotion.com/404</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Maintenance Page -->
+  <url>
+    <loc>https://inadpromotion.com/maintenance</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>
