@@ -16,7 +16,6 @@ import Newsletter from './components/Newsletter';
 import Portfolio from './components/Portfolio';
 import ServiceHighlights from './components/ServiceHighlights';
 import Services from './components/Services';
-
 import { initPerformanceMonitoring } from './utils/performance';
 import { registerServiceWorker } from './utils/serviceWorker';
 

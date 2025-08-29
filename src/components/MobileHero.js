@@ -1,9 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-
 import { useInView } from 'react-intersection-observer';
-
-import MobileButton from './MobileButton';
-import OptimizedImage from './OptimizedImage';
 
 import {
   breakpoints,
@@ -12,6 +8,9 @@ import {
   performanceStyles,
   mediaQuery,
 } from '../utils/responsive';
+
+import MobileButton from './MobileButton';
+import OptimizedImage from './OptimizedImage';
 
 const MobileHero = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);

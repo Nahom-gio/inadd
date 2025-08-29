@@ -273,7 +273,7 @@ describe('Newsletter Component', () => {
     const subscribeButton = screen.getByRole('button', { name: /subscribe/i });
 
     // Test very long email
-    const longEmail = 'a'.repeat(100) + '@example.com';
+    const longEmail = `${'a'.repeat(100)}@example.com`;
     fireEvent.change(emailInput, { target: { value: longEmail } });
 
     await act(async () => {
